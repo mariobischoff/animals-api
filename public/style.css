@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkcyan;
+    color: azure;
+    text-align: center;
+}
+
+#list-aniamls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin: 12px 0;
+    padding: 4px;
+    border: 1px solid azure;
+}
